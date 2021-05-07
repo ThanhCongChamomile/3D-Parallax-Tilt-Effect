@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Mouse 3D Parallax Titl Effect</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="imgBx">
+                <img src="./assets/img/vn_1.jpg" width="450px" height="300px" alt="Vietnam">
+            </div>
+            <div class="contentBx">
+                <h2>My life - Vietnam</h2>
+                <p class="contentTxt">Vietnam is a tropical Asian paradise 
+                    with an abundance of natural beauty 
+                    that surrounds the booming metropolitan 
+                    areas like Ho Chi Minh City and Hanoi, 
+                    and it remains relatively untouched in 
+                    rural towns like central Hoi An and remote 
+                    Cat Ba Island.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="./assets/img/vn_2.jpg" width="450px" height="300px" alt="Vietnam">
+            </div>
+            <div class="contentBx">
+                <h2>Mysterious Story</h2>
+                <p class="contentTxt">Vietnamese food contains influence from several 
+                    different cultures including Indian, Chinese, 
+                    French and American. As a result many see Vietnamese 
+                    cuisine as original and unpretentious fusion food. 
+                    Must-tries from a Vietnamese menu include Pho (beef noodle soup), 
+                    Banh Mi Thit (Vietnamese baguettes stuffed with various ingredients such as ham) 
+                    and Vietnamese fresh rolls with shrimps.</p>
+            </div>
+        </div>
+        <script type="text/javascript" src="./vanilla-tilt.js"></script>
+        <script type="text/javascript">
+            VanillaTilt.init(document.querySelectorAll(".box"), {
+                max: 25,
+                speed: 400
+            });
+            
+        </script>
+    </div>
+</body>
+</html>
